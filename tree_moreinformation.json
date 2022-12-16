@@ -1,0 +1,18 @@
+Internal node
+Do you want to check all information?
+Leaf
+"{'Title': 'Happy Death Day 2U', 'Year': '2019', 'Rated': 'PG-13', 'Released': '13 Feb 2019', 'Runtime': '100 min', 'Genre': 'Comedy, Horror, Mystery', 'Director': 'Christopher Landon', 'Writer': 'Christopher Landon, Scott Lobdell', 'Actors': 'Jessica Rothe, Israel Broussard, Phi Vu', 'Plot': 'Tree Gelbman discovers that dying over and over was surprisingly easier than the dangers that lie ahead.', 'Language': 'English, French', 'Country': 'United States, Japan', 'Awards': '4 nominations', 'Poster': 'https://m.media-amazon.com/images/M/MV5BMTg0NzkwMzQyMV5BMl5BanBnXkFtZTgwNDcxMTMyNzM@._V1_SX300.jpg', 'Ratings': [{'Source': 'Internet Movie Database', 'Value': '6.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '71%'}, {'Source': 'Metacritic', 'Value': '57/100'}], 'Metascore': '57', 'imdbRating': '6.2', 'imdbVotes': '75,324', 'imdbID': 'tt8155288', 'Type': 'movie', 'DVD': '14 May 2019', 'BoxOffice': '$28,148,130', 'Response': 'True'}"
+Internal node
+Do you want to check imdbID?
+Leaf
+"tt8155288"
+Internal node
+Do you want to check the plot?
+Leaf
+Tree Gelbman discovers that dying over and over was surprisingly easier than the dangers that lie ahead
+Internal node
+Do you want to check poster?
+Leaf
+"https://m.media-amazon.com/images/M/MV5BMTg0NzkwMzQyMV5BMl5BanBnXkFtZTgwNDcxMTMyNzM@._V1_SX300.jpg"
+Leaf
+Happy Death Day 2U
