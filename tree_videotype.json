@@ -1,0 +1,14 @@
+Internal node
+Do you want to check all type?
+Leaf
+a list of class which include all type of video
+Internal node
+Do you want to check movie type?
+Leaf
+a list of class which include type of movie
+Internal node
+Do you want to check series type?
+Leaf
+a list of class which include type of series
+Leaf
+a list of class which include type of episode
