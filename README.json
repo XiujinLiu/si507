@@ -1,0 +1,40 @@
+README
+This project start asking users if they have specific name or imdbid for the video they want to search, if no, the system will begin to guess and recommend by asking users some questions and give some options for checking the information. Then the system will ask users if they like the recommendations, if the users like, the system will cache into the json, if users don't like, the system will ask what keyword users like and the different between this one and the last one, then save the question tree into another json. Next time users search, they can choose whether search from existing json and whether use existing question tree to cache.
+REMEMBER!!! change the filepath and filename of cached json file and json file for question in order to run it
+
+Package
+json, requests, webbrowser, os.path, matplotlib.pyplot
+
+data structure
+In this project, I mainly build three kinds of binary trees.
+The first one is let users play the computer can answer preference question, the system will guess what users like and give some recommendations. The tree will start with a very simple tree: 
+GuessTree = \
+    ("Do you want happy ending?",
+        ("happy", None, None),
+        ("sad", None, None))
+After the author answer, the tree will become bigger, and saved in the local file
+The seconds tree is about the type to show, users an choose to show all type, movie, series, and episode
+choose_type_tree = \
+        ("Do you want to check all type?",
+            (obj_list, None, None),
+            ("Do you want to check movie type?",
+                (movie_list, None, None),
+                ("Do you want to check series type?",
+                    (series_list, None, None),
+                    (episode_list, None, None))))
+The third tree is for users to choose to check more detailed information
+tree = \
+            ("Do you want to check all information?",
+                (self.get_clean_dictionary(), None, None),
+                ("Do you want to check imdbID?",
+                    (self.IMDb, None, None),
+                    ("Do you want to check the plot?",
+                        (self.plot, None, None),
+                        ("Do you want to check poster?",
+                            (self.poster_url, None, None),
+                            (self.title, None, None)))))
+
+                            
+In general
+starting runing Proj_final, Users can directly search specific video through imdbid or title, or let the system guess and give recommendations, for data the users can choose search from existing json file or directly from website, for question tree, users can choose from existing json file or start a new tree, for display, users have several display options, for general information, users can choose check movie type, series type, episode type or all type, for more detailed information, users can choose to check all information, imdbid, poster on website, plot, or name. finally users can choose if check plotly of year comparison.
+In the end users can choose to save data for next time search.
